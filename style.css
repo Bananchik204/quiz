@@ -1,0 +1,42 @@
+p {
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.text::first-letter {
+    color: red;
+    font-size: 150%;
+}
+
+.question_text {
+    background-color: aquamarine;
+}
+
+.question_1 {
+    background-color: coral;
+}
+
+.answer_img {
+    width: 100px;
+    height: 100px;
+}
+
+.question_2 {
+    background-color: aliceblue;
+}
+
+.question_3 {
+    background-color: goldenrod;
+}
+
+.answer_1::after:hover {
+    content: attr(title);
+}
+
+.answer_2::after:hover {
+    content: attr(title);
+}
+
+.answer_3::after:hover {
+    content: attr(title);
+}
