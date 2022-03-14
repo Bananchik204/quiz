@@ -1,4 +1,4 @@
-p {
+* {
     font-size: 20px;
     font-family: Roboto;
 }
@@ -10,6 +10,7 @@ p {
 
 .question_text {
     background-color: aquamarine;
+    border-radius: 1em;
 }
 
 .question_1 {
@@ -29,6 +30,14 @@ p {
     background-color: goldenrod;
 }
 
+.question_4 {
+    background-color: green;
+}
+
+.question_5 {
+    background-color: aquamarine;
+}
+
 .answer_1::after:hover {
     content: attr(title);
 }
@@ -39,4 +48,42 @@ p {
 
 .answer_3::after:hover {
     content: attr(title);
+}
+
+.answer_4::after:hover {
+    content: attr(title);
+}
+
+.answer_5::after:hover {
+    content: attr(title);
+}
+
+header {
+    width: 100%;
+    background: #eeeff1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.header_logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.quiz {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.quiz_question {
+    border-radius: 1em;
 }
